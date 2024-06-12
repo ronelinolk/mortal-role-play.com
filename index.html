@@ -1,0 +1,858 @@
+<!DOCTYPE html><html lang="en"><head>
+<title>CARAVAN GTA - Онлайн гра про Україну</title>
+<meta charset="UTF-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="Це онлайн гра про нашу країну, зі справжніми авто, містами, реальними роботами! У нас ти зможеш відчути всю атмосферу української гри та українських гравців!">
+<link rel="stylesheet" href="css/style.css">
+<script async src="https://www.googletagmanager.com/gtm.js?id=GTM-527PH2F"></script><script src="js/jquery-3.6.3.min.js"></script>
+<link rel="icon" href="favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0BX207J77G"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0BX207J77G');
+</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-527PH2F');</script></head>
+
+
+
+
+
+<body>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-527PH2F" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="wrapper">
+<header class="header">
+<div class="header__container">
+<a href="/" class="header__logo">
+<picture><source srcset="images/logo.webp" type="image/webp"><img src="images/logo.png" alt></picture>
+</a>
+<div class="header__menu menu">
+<nav class="menu__body">
+<ul class="menu__list">
+<li class="menu__item"><a href="/#how" onclick="$('html').removeClass('menu-open');$('html').removeClass('lock')" class="menu__link">Як почати грати?</a></li>
+<li class="menu__item"><a href="https://forum.ukraine-gta.com.ua" class="menu__link">Форум</a></li>
+<li class="menu__item"><a href="/donate" class=" menu__link undefined">Ігровий магазин</a></li>
+</ul>
+<ul class="menu__socials socials">
+<li>
+<a href="https://discord.gg/bq74nAwatX" rel="nofollow" target="_blank">
+<img src="fonts/discord.svg" alt="Discord">
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/ukraine_gta/?igshid=YmMyMTA2M2Y%3D" rel="nofollow" target="_blank">
+<img src="fonts/instagram.svg" alt="Instagram">
+</a>
+</li>
+<li>
+<a href="https://www.youtube.com/channel/UCAyONHpqibQDDrCxGiYc_hQ/featured" rel="nofollow" target="_blank">
+<img src="fonts/youtube.svg" alt="YouTube">
+</a>
+</li>
+<li>
+<a href="https://t.me/ukraine_gta" rel="nofollow" target="_blank">
+<img src="fonts/telegram.svg" alt="Telegram">
+</a>
+</li>
+<li>
+<a href="https://vm.tiktok.com/ZMLp3Mcys/" rel="nofollow" target="_blank">
+<img src="fonts/tiktok.svg" alt="TikTok">
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="header__actions actions-header">
+<div class="actions-header__lang-select">
+<select id="select_language" name="form[]" class="form">
+<option data-asset="/assets/img/svg/planet.svg" data-href="javascript:selectLanguage();" value="1" selected>Укр</option>
+<option data-asset="/assets/img/svg/planet.svg" data-href="javascript:selectLanguage();" value="2">Eng</option>
+</select>
+</div>
+<button type="button" class="menu__icon icon-menu"><span></span></button>
+<a data-da=".menu__body,991,0" data-popup="#popup-login" href class="button-icon actions-header__button border-gradient">
+<div class="button-icon__row">
+<span class="button-icon__icon">
+<img src="fonts/user.svg" alt>
+</span>
+<span class="button-icon__text">
+Кабінет </span>
+</div>
+</a>
+</div>
+</div>
+</header>
+<main class="page">
+<section class="main-block">
+<div class="main-block__gerb">
+<img src="fonts/gerb.svg" alt>
+</div>
+<div class="main-block__container">
+<a data-goto=".why" href class="main-block__down-scroll">
+<span>вниз</span>
+<img src="fonts/scroll-down.svg" alt>
+</a>
+<div class="main-block__row">
+<div class="main-block__content">
+<h1 class="main-block__title">
+Онлайн гра про Україну! <span class="main-block__title-decor">
+Онлайн гра про Україну! </span>
+</h1>
+<div class="main-block__text">
+<p>
+<span>CARAVAN GTA</span> - це онлайн гра про нашу країну,
+зі справжніми авто, містами, реальними роботами!
+У нас ти зможеш відчути всю атмосферу української
+гри та українських гравців! </p>
+</div>
+<div class="main-block__buttons">
+<a href="https://mta.cdpro.space/download/" class="button button_orange main-block__button">
+<span class="button__row">
+<img src="fonts/game.svg" alt>
+<span class="button__text">
+Почати гру </span>
+</span>
+</a>
+<a href="https://youtu.be/SdsvPmB5B3I" rel="nofollow" target="_blank" class="button-icon main-block__button">
+<div class="button-icon__row">
+<span class="button-icon__icon">
+<img src="fonts/play.svg" alt>
+</span>
+<span class="button-icon__text">
+Дізнатись більше </span>
+</div>
+</a>
+</div>
+<div class="main-block__monitoring monitoring-main">
+<div class="monitoring-main__head">
+<div class="monitoring-main__title">
+МОН<span>І</span>ТОРИНГ </div>
+<div class="monitoring-main__count">
+<b>0</b>
+</div>
+</div>
+<div class="monitoring-main__items">
+<div class="monitoring-main__item">
+<div class="monitoring-main__region">
+CARAVAN GTA #1 server
+</div>
+<div class="monitoring-main__count-region">
+0/100 </div>
+<div class="monitoring-main__prgress">
+<span style="width: 0%;"></span>
+</div>
+</div>
+<div class="monitoring-main__item">
+<div class="monitoring-main__region">
+CARAVAN GTA ADMIN server
+</div>
+<div class="monitoring-main__count-region">
+0/100 </div>
+<div class="monitoring-main__prgress">
+<span style="width: 0%;"></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-da=".main-block__content,768,3" data-prlx-a="40" data-prlx-cy="200" data-prlx-cx="200" data-prlx-mouse class="main-block__image">
+<picture><source srcset="images/mens.webp, images/mens%402x.webp 2x" type="image/webp"><img srcset="images/mens%402x.png 2x" src="images/mens.png" alt></picture>
+</div>
+</div>
+</div>
+</section>
+<section class="why">
+<div class="why__text-decor one">
+u
+</div>
+<div class="why__text-decor two">
+u
+</div>
+<div class="why__container">
+<div class="why__title-wrap">
+<h2 class="title why__title">
+<span class="title__decor">
+Чому потрібно грати в caravan gta? </span>
+Чому потрібно грати в <span class="yellow">caravan gta</span>? </h2>
+</div>
+<div class="why__items">
+<div data-prlx-parent class="why__item item-why ">
+<div class="item-why__gerb">
+<img data-prlx src="fonts/gerb.svg" alt>
+</div>
+<div class="item-why__content wow slideInLeft">
+<div class="item-why__digit">
+01
+</div>
+<div class="item-why__wrap-content">
+<h4 class="item-why__title">
+<span class="blue">УКРАЇ</span><span class="yellow">НСЬКА</span> МАПА В ГРІ! </h4>
+<div class="item-why__text">
+<p>Ми працюємо над картою вже майже рік. Зайшовши в гру ти одразу зрозумієш, що ти знаходишся в Україні. У грі доступні такі міста як: Харків,Дніпро,Гостомель,Полтава, Чорнобиль і розробляється Київ. Ти почуєш всю атмосферу України з перших секунд як побачиш АТБ, Нову Пошту і купу інших українських компаній!</p>
+</div>
+</div>
+</div>
+<div class="item-why__image-wrap wow slideInRight">
+<div class="item-why__decor-block"></div>
+<div class="item-why__decor-block _2"></div>
+<div class="item-why__line-decor">
+</div>
+<picture><source srcset="images/01.webp, images/01%402x.webp 2x" type="image/webp"><img srcset="images/01%402x.png 2x" src="images/01.png" alt></picture>
+</div>
+</div>
+<div class="why__item item-why">
+<div class="item-why__content wow slideInRight">
+<div class="item-why__digit">
+02
+</div>
+<div class="item-why__wrap-content">
+<h4 class="item-why__title">
+РЕАЛЬНІ РОБОТИ ТА ПРОФЕСІЇ </h4>
+<div class="item-why__text">
+<p>Ти можеш стати будь-ким, працювати далекобійником АТБ або <span class="red">Нової Пошти</span>. Можеш присікати бандитів, працюючи в Національній Поліції або піти служити в ЗСУ. У тебе буде величезний вибір як робот-початківців, так і серйозних професій таких як: ДСНС, СБУ.</p>
+</div>
+</div>
+</div>
+<div class="item-why__image-wrap wow slideInLeft">
+<div class="item-why__decor-block"></div>
+<div class="item-why__decor-block _2"></div>
+<div class="item-why__line-decor">
+</div>
+<picture><source srcset="images/02.webp, images/02%402x.webp 2x" type="image/webp"><img srcset="images/02%402x.png 2x" src="images/02.png" alt></picture>
+</div>
+</div>
+<div class="why__item item-why ">
+<div class="item-why__content wow slideInLeft">
+<div class="item-why__digit">
+03
+</div>
+<div class="item-why__wrap-content">
+<h4 class="item-why__title">
+Вітчизняні та імпортні автомобілі </h4>
+<div class="item-why__text">
+<p>Ми додали понад 400 моделей автомобілів. У грі ти знайдеш будь-який автомобіль, від
+вітчизняних українських автомобілів: ЗАЗ, КрАЗ, ЛАЗ до високоякісних європейських,
+японських та американських. Після покупки авто тобі теж буде чим зайнятися, тому що
+будь-який автомобіль у грі можна затюнінгувати, ти можеш купити нові диски, затонувати
+і навіть змінювати характеристики двигуна.</p>
+</div>
+</div>
+</div>
+<div class="item-why__image-wrap wow slideInRight">
+<div class="item-why__decor-block"></div>
+<div class="item-why__decor-block _2"></div>
+<div class="item-why__line-decor">
+</div>
+<picture><source srcset="images/03_1.webp, images/03%402x.webp 2x" type="image/webp"><img srcset="images/03%402x.png 2x" src="images/03.png" alt></picture>
+</div>
+</div>
+<div data-prlx-parent class="why__item item-why">
+<div class="item-why__gerb">
+<img data-prlx src="fonts/gerb.svg" alt>
+</div>
+<div class="item-why__content wow slideInRight">
+<div class="item-why__digit">
+04
+</div>
+<div class="item-why__wrap-content">
+<h4 class="item-why__title">
+<span class="orange">Атмосфера </span> та користь </h4>
+<div class="item-why__text">
+<p>З перших секунд гри ти відчуєш справжній дух <span class="blue">Укра</span><span class="yellow">їни</span>. 95%
+аудиторії розмовляє рідною
+мовою і дотримується високого рівня рольової гри. А завдяки нашим гравцям щомісяця ми
+<span class="orange"> відправляємо 50% </span> донату з відкритих кейсів і вже
+відправили понад <span class="orange">1.000грн</span> на
+допомогу ЗСУ.</p>
+</div>
+</div>
+</div>
+<div class="item-why__image-wrap wow slideInLeft">
+<div class="item-why__decor-block"></div>
+<div class="item-why__decor-block _2"></div>
+<div class="item-why__line-decor">
+</div>
+<picture><source srcset="images/04.webp, images/04%402x.webp 2x" type="image/webp"><img srcset="images/04%402x.png 2x" src="images/04_1.png" alt></picture>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="how" id="how">
+<div class="how__container">
+<div class="how__title-wrap">
+<h2 class="title how__title">
+<span class="title__decor">
+Як завантажити гру? </span>
+Як завантажити гру? </h2>
+</div>
+<div class="how__steps">
+<div class="how__step">
+<div class="how__step-digit">
+1
+</div>
+<div class="how__step-text">
+<p>Натисніть на кнопку "Завантажити" після у вас завантажиться папка з назвою CARVAN GTA. </p>
+</div>
+</div>
+<div class="how__step">
+<div class="how__step-digit">
+2
+</div>
+<div class="how__step-text">
+<p>Відкрийте її оберіть усе  що там є та натисніть зверху на кнопку Вилучити і оберіть любий для вас зручний диск й створіть на ньому папку і нажимайте обрати. </p>
+</div>
+</div>
+<div class="how__step">
+<div class="how__step-digit">
+3
+</div>
+<div class="how__step-text">
+<p>Після Вилучення гри, зайдіть у потрібну папку яку ви обрали й відкрийте її, й відкрийте файл CARAVAN GTA.exe від імені адміністратора </p>
+</div>
+</div>
+<div class="how__step">
+<div class="how__step-digit">
+4
+</div>
+<div class="how__step-text">
+<p>Після завершення встановлення оберіть сервер, на якому хочете грати і заходьте в гру! </p>
+</div>
+</div>
+</div>
+<div class="how__wrap">
+<div class="how__buttons">
+<div class="how__download">
+<a href="ПОСИЛАННЯ НА ГРУ" class="button-icon how__button download">
+ <div class="button-icon__row">
+<span class="button-icon__icon">
+<img src="fonts/upload.svg" alt>
+</span>
+<span class="button-icon__text">
+Завантажити гру </span>
+</div>
+</a>
+<div class="how__windows-mobile">
+<img src="fonts/windows.svg" alt>
+<span>Тільки з Windows</span>
+</div>
+</div>
+<a href="ТУТОРІАЛ ЯК ЗАВАНТАЖИТИ ГРУ" rel="nofollow" target="_blank" class="button-icon how__button">
+<div class="button-icon__row orange">
+<span class="button-icon__icon">
+<img src="fonts/play.svg" alt>
+</span>
+<span class="button-icon__text">
+Дивитись туторіал </span>
+</div>
+</a>
+<a data-popup="#popup" href class="button-icon how__button">
+<div class="button-icon__row">
+<span class="button-icon__icon">
+<img src="fonts/setting.svg" alt>
+</span>
+<span class="button-icon__text">
+Системні вимоги </span>
+</div>
+</a>
+</div>
+<a href="ТГ КАРАВАН ГТА" rel="nofollow" target="_blank" class="how__link">
+Виникли проблеми з інсталюванням? </a>
+</div>
+<div data-da=".how__container,650,2" class="how__image">
+<div data-prlx-mouse data-prlx-dxr data-prlx-cx="50" data-prlx-dxy class="how__button-decor one">
+<picture><source srcset="images/button.webp" type="image/webp"><img src="images/button.png" alt></picture>
+</div>
+<div data-prlx-mouse data-prlx-cy="50" class="how__button-decor two">
+<picture><source srcset="images/button.webp" type="image/webp"><img src="images/button.png" alt></picture>
+</div>
+<div class="how__decor-line"></div>
+<picture><source srcset="images/main-img.webp, images/main-img%402x.webp 2x" type="image/webp"><img srcset="images/main-img%402x.png 2x" src="images/main-img.png" alt></picture>
+</div>
+</div>
+</section>
+<div class="block-bg">
+<section class="news">
+<div class="news__gerb">
+<img src="fonts/gerb_1.svg" alt>
+</div>
+<div class="news__container">
+<div class="news__title-wrap">
+<h2 class="title news__title">
+<span class="title__decor">
+Новини гри </span>
+Новини гри </h2>
+</div>
+<div class="news__slider-wrap">
+<div class="news__slider swiper">
+<div class="news__wrapper swiper-wrapper">
+<div class="news__slide swiper-slide">
+<div class="news__card card-news">
+<a href="ІНСТА КАРАВАН ГТА" rel="nofollow" target="_blank" class="card-news__image-ibg">
+<picture><source srcset="images/01_1.webp" type="image/webp"><img src="images/01.jpg" alt></picture>
+</a>
+<div class="card-news__content">
+<a href="ІНСТА 2 раз" rel="nofollow" target="_blank" class="card-news__title">
+ДРУГИЙ СЕРВЕР!
+</a>
+<div class="card-news__text">
+<p>Новий сервер "CARAVAN GTA #2 server" вже доступний! Для вас - це ідеальний шанс почати все з 0 і стати номером один на новому сервері!</p>
+</div>
+<div class="card-news__bottom">
+<a href="ІНСТА 3 раз" rel="nofollow" target="_blank" class="card-news__button button button_blue">
+<div class="button__row">
+<span>Докладніше</span>
+</div>
+</a>
+<div class="card-news__date">
+14.06.2024
+</div>
+</div>
+</div>
+</div>
+ </div>
+<div class="news__slide swiper-slide">
+<div class="news__card card-news">
+<a href="https://youtu.be/wFt8ghuIm9A" rel="nofollow" target="_blank" class="card-news__image-ibg">
+<picture><source srcset="images/02_1.webp" type="image/webp"><img src="images/02.jpg" alt></picture>
+</a>
+<div class="card-news__content">
+<a href="https://youtu.be/wFt8ghuIm9A" rel="nofollow" target="_blank" class="card-news__title">
+ВІДКРИТТЯ ГРИ!
+</a>
+<div class="card-news__text">
+<p>Найбільше всього це очікують гравці CARAVAN GTA! Вже 14.06.2024 буде довгоочікуване відкриття гри!</p>
+</div>
+<div class="card-news__bottom">
+<a href="ЮТУБ" rel="nofollow" target="_blank" class="card-news__button button button_blue">
+<div class="button__row">
+<span>Докладніше</span>
+</div>
+</a>
+<div class="card-news__date">
+24.06.2024
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="news__slide swiper-slide">
+<div class="news__card card-news">
+<a href="ІНСТА 4 раз" rel="nofollow" target="_blank" class="card-news__image-ibg">
+<picture><source srcset="images/03.webp" type="image/webp"><img src="images/03.jpg" alt></picture>
+</a>
+<div class="card-news__content">
+<a href="ІНСТА 5 Раз" rel="nofollow" target="_blank" class="card-news__title">
+НОВЕ МЕНЮ ГРАВЦЯ!
+</a>
+<div class="card-news__text">
+<p>До гри буде додано нове меню гравця, яке повністю замінило вам безліч зайвих клавіш! Тепер все стало набагато комфортніше та приємніше!</p>
+</div>
+<div class="card-news__bottom">
+<a href="ІНСТА 6 РАЗ" rel="nofollow" target="_blank" class="card-news__button button button_blue">
+<div class="button__row">
+<span>Докладніше</span>
+</div>
+</a>
+<div class="card-news__date">
+02.07.2024
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="news__slide swiper-slide">
+<div class="news__card card-news">
+<a href="https://youtu.be/SYMkyXPL3fU" rel="nofollow" target="_blank" class="card-news__image-ibg">
+<picture><source srcset="images/04_1.webp" type="image/webp"><img src="images/04.jpg" alt></picture>
+</a>
+<div class="card-news__content">
+<a href="https://youtu.be/SYMkyXPL3fU" rel="nofollow" target="_blank" class="card-news__title">
+Таємне свято!
+</a>
+<div class="card-news__text">
+<p>Саме цієї дати один гравець з нашої гри у якого буде даної дати день народження отримає у грі величезні призи!</p>
+</div>
+<div class="card-news__bottom">
+<a href="Ютуб" rel="nofollow" target="_blank" class="card-news__button button button_blue">
+<div class="button__row">
+<span>Докладніше</span>
+</div>
+</a>
+<div class="card-news__date">
+15.07.2024
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="news__arrows">
+<button class="news__arrow prev">
+<img src="fonts/arrow-slider.svg" alt>
+</button>
+<button class="news__arrow next">
+<img src="fonts/arrow-slider.svg" alt>
+</button>
+</div>
+</div>
+<div class="news__pagination"></div>
+</div>
+</section>
+<section class="screen" id="screenshots">
+<div class="screen__container">
+<div data-gallery class="screen__grid">
+<div class="screen__title-wrap">
+<h2 class="title screen__title">
+<span class="title__decor">
+Скриншоти <br> гравців </span>
+Скриншоти <br> гравців </h2>
+</div>
+<a href="https://www.youtube.com/channel/UCAyONHpqibQDDrCxGiYc_hQ/featured" rel="nofollow" target="_blank" class="screen__image-ibg one">
+<div class="screen__icon">
+<img src="fonts/play.svg" alt>
+</div>
+<picture><source srcset="images/01_2.webp" type="image/webp"><img src="images/01_1.png" alt></picture>
+</a>
+<a data-gallery-item href="/assets/img/screen/07.png" class="screen__image-ibg two">
+<div class="screen__icon">
+<img src="fonts/eye.svg" alt>
+</div>
+<picture><source srcset="images/07.webp" type="image/webp"><img src="images/07.png" alt></picture>
+</a>
+<a href="https://www.youtube.com/channel/UCAyONHpqibQDDrCxGiYc_hQ/featured" rel="nofollow" target="_blank" class="screen__image-ibg three">
+<div class="screen__icon">
+<img src="fonts/play.svg" alt>
+</div>
+<picture><source srcset="images/02_2.webp" type="image/webp"><img src="images/02_1.png" alt></picture>
+</a>
+<a data-gallery-item href="/assets/img/screen/04.png" class="screen__image-ibg four">
+<div class="screen__icon">
+<img src="fonts/eye.svg" alt>
+</div>
+<picture><source srcset="images/04_2.webp" type="image/webp"><img src="images/04.png" alt></picture>
+</a>
+<a data-gallery-item href="/assets/img/screen/05.png" class="screen__image-ibg five">
+<div class="screen__icon">
+<img src="fonts/eye.svg" alt>
+</div>
+<picture><source srcset="images/05_1.webp" type="image/webp"><img src="images/05.png" alt></picture>
+</a>
+<a data-gallery-item href="/assets/img/screen/06.png" class="screen__image-ibg six">
+<div class="screen__icon">
+<img src="fonts/eye.svg" alt>
+</div>
+<picture><source srcset="images/06.webp" type="image/webp"><img src="images/06.png" alt></picture>
+</a>
+<a data-gallery-item href="/assets/img/screen/03.png" class="screen__image-ibg seven">
+<div class="screen__icon">
+<img src="fonts/eye.svg" alt>
+</div>
+<picture><source srcset="images/03_2.webp" type="image/webp"><img src="images/03_1.png" alt></picture>
+</a>
+<a data-gallery-item href="/assets/img/screen/08.png" class="screen__image-ibg eight">
+<div class="screen__icon">
+<img src="fonts/eye.svg" alt>
+</div>
+<picture><source srcset="images/08.webp" type="image/webp"><img src="images/08.png" alt></picture>
+</a>
+</div>
+</div>
+</section>
+</div>
+</main>
+<div id="popup" aria-hidden="true" class="popup">
+<div class="popup__wrapper">
+<div class="popup__content">
+<button data-close type="button" class="popup__close"><img src="fonts/close.svg" alt></button>
+<div class="popup__title">
+Системні вимоги
+</div>
+<div data-simplebar class="popup__scroll">
+<div class="popup__item">
+<h4>
+Мінамальні вимоги
+</h4>
+<ul>
+<li>
+Операційна система: <span>Windows 7 SP1 x64 та вище</span>
+</li>
+<li>
+Процесор: <span>Intel Core 2 Duo 2.2 GHz, AMD Phenom 2.2 GHz</span>
+</li>
+<li>
+Відеокарта: <span>GTX 550 TI, ATI Radeon HD 4800</span>
+</li>
+<li>
+Оперативна пам'ять: <span>6ГБ DDR2</span>
+</li>
+<li>
+Роздільна здатність екрану: <span>1280х720</span>
+</li>
+<li>
+Звукова карта: <span>Сумісна з DirectX 9</span>
+</li>
+<li>
+Інтернет-з'єднання: <span>8 мбіт/сек</span>
+</li>
+<li>
+Вільне місце на накопичувачі: <span>20ГБ</span>
+</li>
+</ul>
+</div>
+<div class="popup__item">
+<h4>
+Рекомендовані вимоги
+</h4>
+<ul>
+<li>
+Операційна система: <span>Windows 11 x64</span>
+</li>
+<li>
+Процесор: <span>Intel Core i5 3GHz, AMD Ryzen 3GHz</span>
+</li>
+<li>
+Відеокарта: <span>GTX 550 TI, ATI Radeon HD 4800</span>
+</li>
+<li>
+Оперативна пам'ять: <span>16ГБ DDR3</span>
+</li>
+<li>
+Роздільна здатність екрану: <span>1920х1080</span>
+</li>
+<li>
+Звукова карта: <span>Сумісна з DirectX 9</span>
+</li>
+<li>
+Інтернет-з'єднання: <span>8 мбіт/сек</span>
+</li>
+<li>
+Вільне місце на накопичувачі: <span>20ГБ</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="popup-login" aria-hidden="true" class="popup popup_login">
+<div class="popup__wrapper">
+<div class="popup__content">
+<button data-close type="button" class="popup__close"><img src="fonts/close.svg" alt></button>
+<div class="popup__title">
+Підтвердження
+</div>
+<div class="popup__text">
+<p>
+Функція поки що недоступна
+</p>
+</div>
+</div>
+</div>
+</div>
+<footer class="footer">
+<div class="footer__container">
+<div class="footer__top">
+<div class="footer__left">
+<a href="/" class="footer__logo">
+<picture><source srcset="images/logo2.webp" type="image/webp"><img src="images/logo2.png" alt></picture>
+</a>
+<div class="footer__text">
+<p>Караван ГТА - це український ролеплей проєкт, створений українськими розробниками на платформі MTA.
+Гра, в якій є графіка та можливості GTA 5. Це український РП проєкт, створений за мотивами
+кримінальної України.</p>
+</div>
+</div>
+<div class="footer__buttons">
+<a href="/about" class="footer__button button button_blue">
+<div class="button__row">
+<span> Про нас</span>
+</div>
+</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLScgoFSNBTYqTYOhaaTlDp31PlBeJ4bStYH1qRVQsFvI1CKPbw/alreadyresponded" rel="nofollow" target="_blank" class="footer__button button button_blue">
+<div class="button__row">
+<span> Блогерам</span>
+</div>
+</a>
+<a href="/vacancy" class="footer__button button button_blue">
+<div class="button__row">
+<span> Вакансії</span>
+</div>
+</a>
+<a href="ТЕХ ПІДТРИМКА КАРАВАН ГТА" rel="nofollow" target="_blank" class="footer__button button button_blue">
+<div class="button__row">
+<span>Тех. підтримка</span>
+</div>
+</a>
+</div>
+</div>
+<div class="footer__navigation">
+<div class="footer__column">
+<div class="footer__title">
+Інформація </div>
+<ul class="footer__list">
+<li>
+<a href="/terms">
+Угода користувача </a>
+</li>
+<li>
+<a href="/offert">
+Договір оферти </a>
+</li>
+<li>
+<a href="/privacy">
+Політика персональних даних </a>
+</li>
+</ul>
+</div>
+<div class="footer__column">
+<div class="footer__title">
+Навігація </div>
+<ul class="footer__list">
+<li>
+<a href="/#how">
+Як почати грати? </a>
+</li>
+<li>
+<a href="ФОРУМ КАРАВАН ГТА" target="_blank">
+Ігровий форум </a>
+</li>
+<li>
+<a href="/donate/">
+Ігровий магазин </a>
+</li>
+<li>
+<a href="/#screenshots">
+Скриншоти гравців </a>
+</li>
+</ul>
+</div>
+<div class="footer__column">
+<div class="footer__title">
+СОЦІАЛЬНІ МЕРЕЖІ </div>
+<ul class="footer__list-socials">
+<li>
+<a href="ІНСТА КАРАВАН ГТА" rel="nofollow" target="_blank">
+<span class="footer__soc-icon">
+<img src="fonts/foo-inst.svg" alt>
+</span>
+<span class="footer__soc-text">
+Instagram
+</span>
+</a>
+</li>
+<li>
+<a href="ЮТУБ КАРАВАН ГТА" rel="nofollow" target="_blank">
+<span class="footer__soc-icon">
+<img src="fonts/foo-you.svg" alt>
+</span>
+<span class="footer__soc-text">
+YouTube
+</span>
+</a>
+</li>
+<li>
+<a href="ТЕЛЕГРАМ КАРАВАН ГТА" rel="nofollow" target="_blank">
+<span class="footer__soc-icon">
+<img src="fonts/foo-tel.svg" alt>
+</span>
+<span class="footer__soc-text">
+Telegram
+</span>
+</a>
+</li>
+<li>
+<a href="ТІКТОК КАРАВАН ГТА" rel="nofollow" target="_blank">
+<span class="footer__soc-icon">
+ <img src="fonts/foo-tik.svg" alt>
+</span>
+<span class="footer__soc-text">
+TikTok
+</span>
+</a>
+</li>
+<li>
+<a href="https://discord.gg/tvF6CWyRrV" rel="nofollow" target="_blank">
+<span class="footer__soc-icon">
+<img src="fonts/foo-dis.svg" alt>
+</span>
+<span class="footer__soc-text">
+Discord
+</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="footer__bottom">
+<span class="footer__support">ВСІ ПРАВА ЗАХИЩЕНО.</span>
+<div class="footer__copy">
+<p>© 2024 CARAVAN GTA</p>
+<p>Створено: <br> discord: mr_seater</p>
+</div>
+<div class="footer__payments">
+<span class="footer__payment">
+<img src="fonts/01.svg" alt>
+</span>
+<span class="footer__payment">
+<img src="fonts/02.svg" alt>
+</span>
+<span class="footer__payment">
+<img src="fonts/03.svg" alt>
+</span>
+<span class="footer__payment">
+<img src="fonts/04.svg" alt>
+</span>
+<span class="footer__payment">
+<img src="fonts/05.svg" alt>
+</span>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script src="js/app.min.js"></script>
+<script>
+		function scrollIntoView(element) {
+			document.getElementById(element).scrollIntoView({
+				behavior: 'smooth'
+			});
+		}
+
+		function selectLanguage() {
+			var language = document.getElementById("select_language").value;
+			if(language == 2)
+				document.cookie = 'language=eng; expires=Sun, 1 Jan 2026 00:00:00 UTC; path=/';
+			else 
+				document.cookie = 'language=ukr; expires=Sun, 1 Jan 2026 00:00:00 UTC; path=/';
+
+			window.location.href = "https://ukraine-gta.com.ua/";
+			window.location.reload();
+		}
+	</script>
+<div id="popup-login" aria-hidden="true" class="popup popup_login">
+<div class="popup__wrapper">
+<div class="popup__content">
+<button data-close type="button" class="popup__close"><img src="fonts/close.svg" alt></button>
+<div class="popup__title">
+Підтвердження
+</div>
+<div class="popup__text">
+<p>
+Функція поки що недоступна
+</p>
+</div>
+</div>
+</div>
+</div>
+
+
+</body></html>
